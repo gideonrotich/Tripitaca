@@ -11,10 +11,6 @@ Tripitaca Mobile app
     <img src="https://kotlin.link/awesome-kotlin.svg" alt="Awesome Kotlin">
   </a>
   
-  <a href="https://github.com/mrcsxsiq/Kotlin-Pokedex/actions">
-    <img src="https://github.com/mrcsxsiq/Kotlin-Pokedex/workflows/Android%20CI/badge.svg" alt="Android CI">
-  </a>
-  
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-red.svg" alt="License MIT">
   </a>
@@ -26,9 +22,9 @@ Tripitaca Mobile app
 
 <br>
 
-| HOME | Player | Search | Predictions |
+| Splashscreen | Login | Search | Settings |
 | ------ | ----- | ------ | ----- |
-| ![Rankings](screenshot/one.png) | ![Predict](screenshot/two.png) | ![Predictions](screenshot/three.png) | ![Live](screenshot/four.png) |
+| ![Rankings](screenshot/j.png) | ![Predict](screenshot/i.png) | ![Predictions](screenshot/m.png) | ![Live](screenshot/p.png) |
 
 | Matches | Live | News | Info |
 | ------ | ----- | ------ | ----- |
