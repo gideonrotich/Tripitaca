@@ -28,7 +28,7 @@ Tripitaca Mobile app
 
 | Green Accent | Peach Accent | Lavendar Accent |
 | ------ | ------  | ------ |
-| ![Rankings](screenshot/h.png) | ![Predict](screenshot/f.png) | ![Predictions](screenshot/d.png) |
+| ![Rankings](screenshot/h.png) | ![Predict](screenshot/e.png) | ![Predictions](screenshot/d.png) |
 
 | Matches | Live | News | Info |
 | ------ | ----- | ------ | ----- |
