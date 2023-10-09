@@ -30,13 +30,9 @@ Tripitaca Mobile app
 | ------ | ------  | ------ |
 | ![Rankings](screenshot/h.png) | ![Predict](screenshot/f.png) | ![Predictions](screenshot/d.png) |
 
-| Green Accent | Peach Accent | Lavendar Accent |
+| Details | Map/Calendar | Dark mode |
 | ------ | ------  | ------ |
-| ![Rankings](screenshot/c.png) | ![Predict](screenshot/b.png) | ![Predictions](screenshot/l.png) |
-
-| Matches | Live | News | Info |
-| ------ | ----- | ------ | ----- |
-| ![Fixtures](screenshot/five.png) | ![Results](screenshot/six.png) | ![News](screenshot/seven.png) | ![Info](screenshot/eight.png) |
+| ![Rankings](screenshot/n.png) | ![Predict](screenshot/o.png) | ![Predictions](screenshot/l.png) |
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/giddyjonesL" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
