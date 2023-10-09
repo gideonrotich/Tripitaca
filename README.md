@@ -22,9 +22,9 @@ Tripitaca Mobile app
 
 <br>
 
-| Splashscreen | Login | Search | Settings |
+| Splashscreen | Login | Search |
 | ------ | ----- | ------ | ----- |
-| ![Rankings](screenshot/j.png) | ![Predict](screenshot/i.png) | ![Predictions](screenshot/m.png) | ![Live](screenshot/p.png) |
+| ![Rankings](screenshot/j.png) | ![Predict](screenshot/i.png) | ![Predictions](screenshot/m.png) |
 
 | Matches | Live | News | Info |
 | ------ | ----- | ------ | ----- |
