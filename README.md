@@ -30,9 +30,9 @@ Tripitaca Mobile app
 | ------ | ------  | ------ |
 | ![Rankings](screenshot/h.png) | ![Predict](screenshot/f.png) | ![Predictions](screenshot/d.png) |
 
-| Splashscreen | Login | Search |
+| Green Accent | Peach Accent | Lavendar Accent |
 | ------ | ------  | ------ |
-| ![Rankings](screenshot/j.png) | ![Predict](screenshot/i.png) | ![Predictions](screenshot/m.png) |
+| ![Rankings](screenshot/c.png) | ![Predict](screenshot/b.png) | ![Predictions](screenshot/l.png) |
 
 | Matches | Live | News | Info |
 | ------ | ----- | ------ | ----- |
