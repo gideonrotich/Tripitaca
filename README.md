@@ -22,7 +22,7 @@ Tripitaca Mobile app
 
 <br>
 
-| Splashscreen | Login Screen | Search Screen |
+| Splashscreen | LoginScreen | SearchScreen |
 | ------ | ------  | ------ |
 | ![Rankings](screenshot/j.png) | ![Predict](screenshot/i.png) | ![Predictions](screenshot/m.png) |
 
