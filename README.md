@@ -26,6 +26,10 @@ Tripitaca Mobile app
 | ------ | ------  | ------ |
 | ![Rankings](screenshot/j.png) | ![Predict](screenshot/i.png) | ![Predictions](screenshot/m.png) |
 
+| Splashscreen | Login | Search |
+| ------ | ------  | ------ |
+| ![Rankings](screenshot/j.png) | ![Predict](screenshot/i.png) | ![Predictions](screenshot/m.png) |
+
 | Matches | Live | News | Info |
 | ------ | ----- | ------ | ----- |
 | ![Fixtures](screenshot/five.png) | ![Results](screenshot/six.png) | ![News](screenshot/seven.png) | ![Info](screenshot/eight.png) |
