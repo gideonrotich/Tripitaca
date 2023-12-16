@@ -1,6 +1,6 @@
 @Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
-    alias(libs.plugins.com.android.application)
+    alias(libs.plugins.com.android.library)
     alias(libs.plugins.org.jetbrains.kotlin.android)
     id("kotlin-kapt")
     id("dagger.hilt.android.plugin")
@@ -8,20 +8,14 @@ plugins {
 }
 
 android {
-    namespace = "com.swayy.tripitaca"
+    namespace = "com.swayy.calendar"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.swayy.tripitaca"
         minSdk = 24
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        vectorDrawables {
-            useSupportLibrary = true
-        }
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -46,7 +40,7 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = "1.4.3"
     }
-    packaging {
+    packagingOptions {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
@@ -55,12 +49,8 @@ android {
 
 dependencies {
 
-
     implementation(project(":core"))
     implementation(project(":compose-ui"))
-    implementation(project(":feature:home"))
-    implementation(project(":feature:settings"))
-    implementation(project(":feature:Calendar"))
 
     implementation(libs.core.ktx)
     implementation(libs.lifecycle.runtime.ktx)
@@ -70,6 +60,7 @@ dependencies {
     implementation(libs.ui.graphics)
     implementation(libs.ui.tooling.preview)
     implementation(libs.material3)
+    implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
@@ -110,4 +101,23 @@ dependencies {
     //support library
     implementation(libs.appcompat)
 
+    //coroutines
+    implementation(libs.coroutines)
+    implementation(libs.coroutines.android)
+
+    implementation(libs.retrofit)
+    implementation(libs.logging.interceptor)
+    implementation(libs.okhttp)
+
+    implementation(libs.coil)
+
+    implementation(libs.picasso)
+    // Swipe to refresh
+    implementation("com.google.accompanist:accompanist-swiperefresh:0.27.1")
+
+    // Gson
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    implementation ("com.google.maps.android:maps-compose:2.11.4")
+    implementation ("com.google.android.gms:play-services-maps:18.1.0")
 }

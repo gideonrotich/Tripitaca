@@ -45,6 +45,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.navArgument
 import com.google.accompanist.navigation.animation.AnimatedNavHost
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
+import com.swayy.calendar.screens.CalendarScreen
 import com.swayy.compose_ui.theme.AppTheme
 import com.swayy.compose_ui.theme.TripitacaTheme
 import com.swayy.core.auth.LoginScreen
@@ -115,18 +116,18 @@ class MainActivity : ComponentActivity() {
 
                 LaunchedEffect(navBackStackEntry) {
                     bottomBarState = when (navBackStackEntry?.destination?.route) {
-                        Route.HOME, Route.SETTINGS -> true
+                        Route.HOME, Route.CALENDAR, Route.SETTINGS -> true
                         else -> false
                     }
                 }
                 CompositionLocalProvider() {
                     Scaffold(
-//                        bottomBar = {
-//                            NavigationBar(
-//                                navController = navController,
-//                                bottomBarState = bottomBarState
-//                            )
-//                        },
+                        bottomBar = {
+                            NavigationBar(
+                                navController = navController,
+                                bottomBarState = bottomBarState
+                            )
+                        },
                         contentWindowInsets = WindowInsets(0.dp)
                     ) { paddingValues ->
                         AnimatedNavHost(
@@ -136,7 +137,7 @@ class MainActivity : ComponentActivity() {
                         ) {
                             animatedComposable(Route.HOME) {
                                 HomeScreen(
-                                    navigateListingDetails = { listing,name ->
+                                    navigateListingDetails = { listing, name ->
                                         navController.navigate(
                                             "listing/${listing}/${name}"
                                         )
@@ -151,6 +152,10 @@ class MainActivity : ComponentActivity() {
 //                                MoreScreen(
 //                                    navigateSettings = { navController.navigate("settings/?fromGame=false") }
 //                                )
+                            }
+
+                            animatedComposable(Route.CALENDAR) {
+                               CalendarScreen()
                             }
 
                             animatedComposable(Route.LOGIN) {
@@ -227,10 +232,12 @@ fun NavigationBar(
     var selectedScreen by remember { mutableStateOf(Route.HOME) }
     val navBarScreens = listOf(
         Pair(Route.HOME, R.string.Home),
+        Pair(Route.CALENDAR, R.string.Calendar),
         Pair(Route.SETTINGS, R.string.Settings),
     )
     val navBarIcons = listOf(
         painterResource(com.swayy.core.R.drawable.baseline_home_24),
+        painterResource(com.swayy.core.R.drawable.baseline_calendar_month_24),
         painterResource(com.swayy.core.R.drawable.baseline_settings_24),
     )
     AnimatedContent(
