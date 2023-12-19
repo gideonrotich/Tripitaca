@@ -33,7 +33,7 @@ class AppColorScheme {
         error = Color(0xFFBA1A1A),
         errorContainer = Color(0xFFFFDAD6),
         onError = Color(0xFFFFFFFF),
-        onErrorContainer = Color(0xFF410002),
+        onErrorContainer = Color(0xFF32CCBE),
         background = Color(0xFFFFFFFF),
         onBackground = Color(0xFF1A1C18),
         surface = Color(0xFFFCFDF6),
