@@ -149,7 +149,7 @@ fun CalendarScreen() {
                             modifier = Modifier
                                 .background(Color.LightGray.copy(alpha = .4f))
                                 .padding(0.dp)
-                                .width(1200.dp)
+                                .width(1200.dp)//to be fixed
                                 .height(554.dp)
                         ) {
                             Row(modifier = Modifier.wrapContentHeight()) {
